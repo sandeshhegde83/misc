@@ -1,0 +1,1 @@
+angular.module('app', ['jshor.angular-addtocalendar','ui.bootstrap']);
