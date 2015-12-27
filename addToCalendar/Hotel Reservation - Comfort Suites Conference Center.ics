@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20150630T205605Z
+DESCRIPTION:Hotel Information:\nComfort Suites Conference Center\n3210 NW G
+	rand Avenue\nPhoenix\, AZ\, US\, 85017\nPhone: (602) 279-3211\nhttp://chco
+	mqa.choicehotels.com/ires/en-US/html/HotelInfo?hotel=AZ181\n\nStay Informa
+	tion:\nConfirmation #: 10475362\nCheck In Time: 3:00 PM\nCheck Out Time: 1
+	2:00 PM\nChoice Privileges Member Number: UXT2005\n\nView Reservation\nhtt
+	ps://secureqa.choicehotels.com/ires/en-US/html/ViewResForm\n\n          
+DTEND:20150703T190000Z
+DTSTAMP:20150630T205500Z
+DTSTART:20150702T190000Z
+LAST-MODIFIED:20150630T205605Z
+LOCATION:3210 NW Grand Avenue\, Phoenix
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Hotel Reservation - Comfort Suites Conference Center
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000802FF8813CB3D001000000000000000
+	01000000018B2738C04EC6449950265A947B869E4
+X-ALT-DESC;FMTTYPE=text/html:<html><body>     <br>     <b>Hotel Information
+	:</b>     <br><br>     Comfort Suites Conference Center     <br>     3210 
+	NW Grand Avenue     <br>     Phoenix\, AZ\, US\, 85017     <br>     Phone:
+	 (602) 279-3211     <br>     http://chcomqa.choicehotels.com/ires/en-US/ht
+	ml/HotelInfo?hotel=AZ181     <br><br><br>          <b>Stay Information:</b
+	>     <br><br>     Confirmation #: 10475362     <br>          Check In Tim
+	e: 3:00 PM         <br>         Check Out Time: 12:00 PM         <br>     
+	    Choice Privileges Member Number: UXT2005          <br><br>     <a href
+	="https://secureqa.choicehotels.com/ires/en-US/html/ViewResForm">View Rese
+	rvation</a>     <br>     </body></html>     
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+END:VCALENDAR
