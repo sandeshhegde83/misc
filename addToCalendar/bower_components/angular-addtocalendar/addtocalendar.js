@@ -28,13 +28,20 @@ angular
 			 * @return {String}  ics calendar data
 			 */
 			function getIcsCalendar(encodeUri) {
+				var descriptionValue = 'Hotel Information:\\n'+$scope.hotelName+'\\n'+$scope.streetName+
+				'\\n'+$scope.city+'\\, '+$scope.state+'\\, '+$scope.country+'\\, '+$scope.zip+'\\nPhone: '+
+				$scope.phone+'\\n'+$scope.hotelUrl+'\\n\\nStay Information:\\nConfirmation #: '+$scope.confirmationNumber+
+				'\\nCheck In Time: 3:00 PM\\nCheck Out Time: 12:00 PM\\nChoice Privileges Member Number: '+$scope.memberNumber+
+				'\\n\\nView Reservation\\nhttps://secureqa.choicehotels.com/ires/en-US/html/ViewResForm\\n\\n';
+
+				console.log(descriptionValue);
 				
 				var elements = [
 					'BEGIN:VCALENDAR',
 					'VERSION:2',
 					'BEGIN:VEVENT',
 					'CLASS:PUBLIC',
-					'DESCRIPTION:' + $scope.description,
+					'DESCRIPTION:' + descriptionValue,
 					'DTSTART;VALUE=DATE:' + $scope.startDate,
 					'DTEND;VALUE=DATE:' + $scope.endDate,
 					'LOCATION:' + $scope.location,
@@ -77,6 +84,16 @@ angular
         description: '@',
         location: '@',
         className: '@',
+        hotelName: '@',
+        streetName: '@',
+        city: '@',
+        state: '@',
+        country: '@',
+        zip: '@',
+        phone: '@',
+        hotelUrl: '@',
+        confirmationNumber: '@',
+        memberNumber: '@',
         btnText: '@'
       },
     	controller: 'AddtocalendarCtrl',
